@@ -1,0 +1,316 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  outline: 1px solid tomato;
+}
+
+/*------- header -------*/
+
+.header {
+  background-color: darkgrey;
+}
+
+.header > .container {
+  display: flex;
+}
+
+.header-navigation {
+  display: flex;
+}
+.header-logo {
+}
+.header-list {
+  display: flex;
+  gap: 30px;
+}
+.heder-item {
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.header-tel {
+  margin-left: auto;
+  margin-right: 43px;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.header-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/*------- hero -------*/
+
+.hero {
+  background-color: black;
+}
+.hero-list {
+}
+.hero-item {
+}
+
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+
+.hero-pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.hero-after-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/*------- about -------*/
+
+.about {
+}
+.about-list {
+}
+.about-item {
+}
+
+.about-pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.about-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.about-after-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.about-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+/*------- price -------*/
+
+.price {
+  background-color: black;
+}
+
+.price-pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.price-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.price-list {
+}
+.price-item {
+}
+
+.price-item-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+.price-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/*------- benefits -------*/
+
+.benefits {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+
+.digit {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.benefits-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: #303030;
+}
+
+.benefits-pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.benefits-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.benefits-after-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+/*------- team -------*/
+
+.team {
+}
+.team-pre-title {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-subtitle {
+}
+.team-item-text {
+}
+
+/*------- gallery -------*/
+
+.gallery {
+}
+.gallery-pre-title {
+}
+.gallery-title {
+}
+.gallery-list {
+}
+.gallery-item {
+}
+
+/*------- booking -------*/
+
+.booking {
+}
+.booking-title {
+}
+.booking-btn {
+}
+
+/*------- contacts -------*/
+
+.contacts {
+}
+.contacts-title {
+}
+.contacts-address {
+}
+.contavts-list {
+}
+.contacts-item {
+}
+.contscts-link {
+}
+.contacts-text {
+}
+.contacts-desc {
+}
+
+/*------- footer -------*/
+
+.footer {
+}
+.footer-text {
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-link {
+}
